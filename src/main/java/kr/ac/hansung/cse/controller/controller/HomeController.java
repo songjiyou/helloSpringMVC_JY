@@ -1,4 +1,4 @@
-package kr.ac.hansung.cse.controller;
+package kr.ac.hansung.cse.controller.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +14,6 @@ public class HomeController {
 
     //private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
     private static final Logger logger = LoggerFactory.getLogger("kr.ac.hansung.controller.HomeController");
-
 
     //@RequestMapping(value = "/", method = RequestMethod.GET)
     @GetMapping("/")
